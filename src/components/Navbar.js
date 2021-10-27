@@ -31,16 +31,15 @@ const matches = useMediaQuery('(min-width:768px)');
             Dwight Carter Jr
           </Typography>
                 { matches && <div>
-                  <Link className="linksMain" sx={{m:2}} color="secondary" href="#">ABOUT</Link>
-                  <Link className="linksMain" sx={{m:2}} color="secondary" href="#">PROJECTS</Link>
-                  <Link className="linksMain" sx={{m:2}} color="secondary" href="#">CONTACT</Link>
+                  <Link className="linksMain" sx={{m:2}} href="#">ABOUT</Link>
+                  <Link className="linksMain" sx={{m:2}} href="#">PROJECTS</Link>
+                  <Link className="linksMain" sx={{m:2}} href="#">CONTACT</Link>
                 </div>
               }
             <div>
                {!matches && <IconButton
                 size="large"
                 edge="start"
-                color="subset"
                 aria-label="menu"
                 onClick={handleMenu}
                 sx={{ mr: 2 }}
