@@ -2,13 +2,13 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Link from '@mui/material/Link';
+import { Typography } from '@mui/material';
 
 export default function MenuAppBar() {
 const matches = useMediaQuery('(min-width:768px)');
@@ -24,8 +24,8 @@ const matches = useMediaQuery('(min-width:768px)');
   };
 
   return (
-    <Box className="bb" sx={{ flexGrow: 1 }}>
-      <AppBar elevation={0} position="static">
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar className="bb" elevation={0} position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Dwight Carter Jr
@@ -38,11 +38,11 @@ const matches = useMediaQuery('(min-width:768px)');
               }
             <div>
                {!matches && <IconButton
+                className="hamBurger"
                 size="large"
                 edge="start"
                 aria-label="menu"
                 onClick={handleMenu}
-                sx={{ mr: 2 }}
             > 
             <MenuIcon />
              </IconButton> }

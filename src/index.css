@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #011627;
+  background-color: #001B29;
 }
-
+h1{
+  margin: 0;
+}
+.bb{
+  background-color: transparent !important;
+}
+.hamBurger svg{
+  color: white !important;
+  height: 1.8em !important;
+  width: 1.8em !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -16,7 +26,23 @@ code {
   background-color: transparent;
 }
 .headOne{
-  color:#FFC847;
+  color: #ffffff;
+  font-size: 5.5em;
+  font-weight: 900;
+}
+.leftWrapper{
+  width: 90%;
+  margin: 0 auto;
+  grid-gap: 20px;
+}
+.leftheadText{
+  margin: 0 auto;
+  display: block;
+}
+.headSpecial{
+  color:#001B29;
+  font-weight: 300;
+
 }
 .textColor{
   color:#FDFFFC !important;
@@ -25,12 +51,25 @@ code {
   text-decoration: none !important;
   font-weight: bold;
   color:#FDFFFC !important;
+  background-color: black;
+  padding: 10px 20px;
 }
 .linksMain:hover{
-  color:#C4CFD4 !important;
+  color:#001B29 !important;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 .bb{
-  border-bottom: 1px solid #2c2c2eff;
+  border-bottom: 1px solid #007CBE;
+}
+.leftBlock{
+  background-color: #47A8BD;
+  height: 100vh;
+}
+.contentBox{
+  color: #FDFFFC;
+  font-weight: 400;
+  font-size: 2em;
+  width: 700px;
+  line-height: 48px;
 }
