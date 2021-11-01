@@ -2,9 +2,10 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
-
 import logo from '../images/bmlaptop.png'
 import { Container } from '@mui/material';
+import Animate from '@charlesvien/react-animatecss';
+
 
 const Maincontent = props => {
     return (
@@ -15,11 +16,16 @@ const Maincontent = props => {
                             <Box className="leftBlock">
                             <Box className="leftWrapper" style={{display:'grid'}}>
                                 <Grid item xs={12} className="leftheadText">
-                                <h1 className="headOne">DWIGHT CARTER JR <span className="headSpecial">DEVELOPER</span></h1>
+                                <h1 className="headOne">DWIGHT CARTER JR 
+                                <span className="headSpecial"> DEVELOPER</span>
+                                </h1>
                                 </Grid>
                                 <Grid item xs={12} className="contentBox">
-                                AS A DEVELOPER, I DISPLAY MY SKILLS BEHIND THE SCENES BUILDING ROBUST FULL-STACK WEB APPLICATIONS THAT LOOK GREAT, WORK FAST AND PERFORM WELL 
-                                WITH A SEAMLESS USER EXPERIENCE.
+                                    <p>
+                                    As a developer, I display my skills behind the scenes building 
+                                    robust full-stack web applications that look great, work fast and 
+                                    perform well with a seamless user experience.
+                                    </p>
                                 </Grid>
                             </Box>
                             </Box>
@@ -28,11 +34,18 @@ const Maincontent = props => {
                             <Box>
                                 <img style={{height:"auto",width:"100%"}} src={logo} alt='Logo'/>
                             </Box>
+                            <Animate
+                            animationIn="fadeIn"
+                            inDuration={1000}
+                            visible
+                            >
                             <Grid item xs={12} style={{textAlign:'center'}}>
-                                <Link className="linksMain" sx={{m:2}} href="https://www.linkedin.com/in/dwight-carter-b9025bb1/">Linkdin</Link>
-                                <Link className="linksMain" sx={{m:2}} href="https://github.com/dwightx">GitHub</Link>
-                                <Link className="linksMain" sx={{m:2}} href="https://docs.google.com/document/d/1i6ktrb8iiH-6tiGLRiBayXrLW5_puAK5kys8m6b8sUI/edit?usp=sharing">Resume</Link>
+                                <Link className="linksMain" sx={{m:2}} href="https://www.linkedin.com/in/dwight-carter-b9025bb1/">LINKEDIN</Link>
+                                <Link className="linksMain" sx={{m:2}} href="https://github.com/dwightx">GITHUB</Link>
+                                <Link className="linksMain" sx={{m:2}} href="https://docs.google.com/document/d/1i6ktrb8iiH-6tiGLRiBayXrLW5_puAK5kys8m6b8sUI/edit?usp=sharing">RESUME</Link>
+                                <Link className="linksMain"  href="/blog" exact>BLOG</Link>
                                 </Grid>
+                                </Animate>
                         </Grid>
                     </Grid>
                 </Box>

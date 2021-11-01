@@ -1,75 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #001B29;
+  background-color: #001b29;
 }
-h1{
+.bgColor{
+  color: #001b29;
+}
+.thirdColor{
+  color:#86616d;
+}
+h1 {
   margin: 0;
 }
-.bb{
+.bb {
   background-color: transparent !important;
 }
-.hamBurger svg{
+.hamBurger svg {
   color: white !important;
   height: 1.8em !important;
   width: 1.8em !important;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.MuiAppBar-root{
+.MuiAppBar-root {
   background-color: transparent;
 }
-.headOne{
+.headOne {
   color: #ffffff;
   font-size: 5.5em;
   font-weight: 900;
 }
-.leftWrapper{
+.leftWrapper {
   width: 90%;
   margin: 0 auto;
   grid-gap: 20px;
+  padding: 5vw 0 15vw 0;
 }
-.leftheadText{
+.leftheadText {
   margin: 0 auto;
   display: block;
 }
-.headSpecial{
-  color:#001B29;
-  font-weight: 300;
-
+.headSpecial {
+  color: #001b29;
+  font-weight: 900;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #FFFFFF;
 }
-.textColor{
-  color:#FDFFFC !important;
+.textColor {
+  color: #fdfffc !important;
 }
-.linksMain{
+.linksMain {
   text-decoration: none !important;
   font-weight: bold;
-  color:#FDFFFC !important;
-  background-color: black;
+  color: #fdfffc !important;
+  background-color: #e91e63;
   padding: 10px 20px;
 }
-.linksMain:hover{
-  color:#001B29 !important;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+.linksMain:hover {
+  color: #001b29 !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.bb{
-  border-bottom: 1px solid #007CBE;
+.bb {
+  border-bottom: 1px solid #007cbe;
 }
-.leftBlock{
-  background-color: #47A8BD;
-  height: 100vh;
+.leftBlock {
+  /* background-color: #47A8BD;
+  height: 100vh; */
 }
-.contentBox{
-  color: #FDFFFC;
+.contentBox {
+  color: #fdfffc;
   font-weight: 400;
   font-size: 2em;
   width: 700px;
   line-height: 48px;
+}
+.chat-notification {
+  display: flex;
+  max-width: 24rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.chat-notification-logo-wrapper {
+  flex-shrink: 0;
+}
+.chat-notification-logo {
+  height: 3rem;
+  width: 3rem;
+}
+.chat-notification-content {
+  margin-left: 1.5rem;
+  padding-top: 0.25rem;
+}
+.chat-notification-title {
+  color: #1a202c;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+.chat-notification-message {
+  color: #718096;
+  font-size: 1rem;
+  line-height: 1.5;
 }
