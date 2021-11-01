@@ -15,7 +15,10 @@ body {
   color: #001b29;
 }
 .thirdColor{
-  color:#86616d;
+  color:#f8c0d2 !important;
+}
+.thirdColorBG{
+  background-color:#e91e63 !important;
 }
 h1 {
   margin: 0;

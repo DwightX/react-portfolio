@@ -27,6 +27,11 @@ const Maincontent = props => {
                                     perform well with a seamless user experience.
                                     </p>
                                 </Grid>
+                                <div class="flex justify-center mt-72">
+                                    <svg class="animate-bounce w-60 h-60 opacity-80	" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="white">
+                                        <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                                    </svg>
+                                </div>
                             </Box>
                             </Box>
                         </Grid>
