@@ -6,6 +6,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import AllPosts from "./components/AllPosts.js";
 import OnePost from "./components/OnePost.js";
 import useMediaQuery from '@mui/material/useMediaQuery';
+import Experience from './components/Experience';
 
 function App() {
   const matches = useMediaQuery('(max-width:768px)');
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" exact> 
       { matches && <Navbar />}
       <Maincontent />
+      <Experience />
       </Route>
     </div>
     </BrowserRouter>
