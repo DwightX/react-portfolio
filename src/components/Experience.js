@@ -9,11 +9,12 @@ import { Container } from '@mui/material';
 const Experience = props => {
     return (
         <Container maxWidth="xl" style={{margin:' 0 auto', padding: '0 50px 0 50px' }}>
+            <div className="backGround"></div>
             <Box className="section-Experience">
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={6} lg={6}>
                         <div>
-                            <h1 className="pageTitles">
+                            <h1 className="pageTitles pb-2">
                                 <span className='text-8xl'>Experience</span>
                             </h1>
                             <p className="textBlurbs">From working overnight in a call center to being a self taught developer.</p>
@@ -22,7 +23,7 @@ const Experience = props => {
                     </Grid>
                     <Grid item xs={12} md={6} lg={6}>
                         <div className='py-4 textBlurbs'>
-                            <h2><span className='thirdColorBG text-2xl px-1'>FRONT END WEB DEVELOPER</span> ZANIBONI LIGHTING</h2>
+                            <h2 className='pb-2'><span className='thirdColorBG text-2xl px-1'>FRONT END WEB DEVELOPER</span> ZANIBONI LIGHTING</h2>
                             <p>For years, Zaniboni Lighting has been developing a line of products aimed at the us architectural market.</p>
                         </div>
                         <div className='py-4 textBlurbs'>
