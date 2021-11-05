@@ -24,16 +24,15 @@ const matches = useMediaQuery('(min-width:768px)');
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar className="bb" elevation={0} position="static">
-        <Toolbar>
+      <AppBar className="bb" elevation={0} style={{ margin: 0 }} position='static'>
+        <Toolbar maxWidth='lg'>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Dwight Carter Jr
           </Typography>
                 { matches && <div>
-                  <Link className="linksMain" sx={{m:2}} href="#">ABOUT</Link>
-                  <Link className="linksMain" sx={{m:2}} href="#">PROJECTS</Link>
-                  <Link className="linksMain" sx={{m:2}} href="#">CONTACT</Link>
+                  <Link className="linksHead" sx={{m:2}} href="#">ABOUT</Link>
+                  <Link className="linksHead" sx={{m:2}} href="#">PROJECTS</Link>
+                  <Link className="linksHead" sx={{m:2}} href="#">CONTACT</Link>
                 </div>
               }
             <div>
@@ -69,6 +68,5 @@ const matches = useMediaQuery('(min-width:768px)');
             </div>
         </Toolbar>
       </AppBar>
-    </Box>
   );
 }

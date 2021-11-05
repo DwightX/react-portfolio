@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #001b29;
+  margin: 0px;
 }
 .bgColor{
   color: #001b29;
@@ -74,13 +75,19 @@ code {
   background-color: #e91e63;
   padding: 10px 20px;
 }
+.linksHead{
+  text-decoration: none !important;
+  font-weight: bold;
+  color: #fdfffc !important;
+  padding: 10px 5px; 
+}
 .linksMain:hover {
   color: #001b29 !important;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .bb {
-  border-bottom: 1px solid #007cbe;
+  border-bottom: 1px solid #007bbe34;
 }
 .leftBlock {
   /* background-color: #47A8BD;
@@ -124,7 +131,6 @@ code {
   line-height: 1.5;
 }
 .section-Main{
-  overflow: hidden;
     min-height: 100vh;
     padding-top: 5vh;
     -webkit-box-align: center;
