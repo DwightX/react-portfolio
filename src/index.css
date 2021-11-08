@@ -42,14 +42,12 @@ code {
 }
 .headOne {
   color: #ffffff;
-  font-size: 5.5em;
+  font-size: clamp(40px, 8vw, 80px);
   font-weight: 900;
 }
 .leftWrapper {
-  width: 90%;
   margin: 0 auto;
   grid-gap: 20px;
-  padding: 5vw 0 15vw 0;
 }
 .leftheadText {
   margin: 0 auto;
@@ -68,13 +66,6 @@ code {
 .textColor {
   color: #fdfffc !important;
 }
-.linksMain {
-  text-decoration: none !important;
-  font-weight: bold;
-  color: #fdfffc !important;
-  background-color: #e91e63;
-  padding: 10px 20px;
-}
 .linksHead{
   text-decoration: none !important;
   font-weight: bold;
@@ -87,7 +78,7 @@ code {
   transition: all 0.3s ease-in-out;
 }
 .bb {
-  border-bottom: 1px solid #007bbe34;
+  border-bottom: 1px solidt transparent;
 }
 .leftBlock {
   /* background-color: #47A8BD;
@@ -97,7 +88,6 @@ code {
   color: #fdfffc;
   font-weight: 400;
   font-size: 2em;
-  width: 700px;
   line-height: 48px;
 }
 .chat-notification {
@@ -169,4 +159,57 @@ code {
   min-height: 650px;
   background: linear-gradient(67deg, rgb(0 5 255 / 0%) 20%, rgb(73, 97, 220) 99%);
   transform: skewY(-3deg);
+}
+
+/* @@@@@@@@@@@ New CSS*/
+.specialName h1{
+  color: #e91e63;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.specialTitle h1{
+  color: #001b29;
+  font-weight: 900;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #e91e63;
+      font-size: clamp(35px, 8vw, 55px);
+}
+.mainName h1{
+  color: #fdfffc;
+  font-size: clamp(40px, 8vw, 80px);
+  font-weight: 900;
+  margin-top: 10px;
+}
+.mainBlurb p {
+  color: #fdfffc;
+  margin-top: 10px;
+}
+.specialBlurb p {
+  color: #fdfffc;
+  margin-top: 10px;
+  font-family: monospace;
+  font-style: italic;
+}
+.linksMain {
+  text-decoration: none !important;
+  font-weight: bold;
+  color: #fdfffc !important;
+  border: 1px solid #e91e63;
+  padding: 5px;
+}
+.sectionTitles h1{
+  font-size: clamp(50px, 8vw, 90px);
+  font-weight: 900;
+  color: #fdfffc;
+}
+.jobTitle{
+  color: #e91e63;
+  font-size: clamp(20px, 5vw, 90px);
+}
+.jobCompany{
+  font-family: monospace;
 }

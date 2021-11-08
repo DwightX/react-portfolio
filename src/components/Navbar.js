@@ -27,7 +27,7 @@ const matches = useMediaQuery('(min-width:768px)');
       <AppBar className="bb" elevation={0} style={{ margin: 0 }} position='static'>
         <Toolbar maxWidth='lg'>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Dwight Carter Jr
+            DC.
           </Typography>
                 { matches && <div>
                   <Link className="linksHead" sx={{m:2}} href="#">ABOUT</Link>
