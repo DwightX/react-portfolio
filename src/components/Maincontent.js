@@ -19,14 +19,14 @@ const Maincontent = props => {
                 <span className="headSpecial"> DEVELOPER</span>
                 </h1>
                 </div>
-                <div className="contentBox">
+                <div class="contentBox lg:w-11/12">
                     <p className='text-base sm:text-2xl'>
                     As a developer, I display my skills behind the scenes building 
                     robust full-stack web applications that look great, work fast and 
                     perform well with a seamless user experience.
                     </p>
                 </div>
-                <div class="hidden text-center lg:block lg:flex lg:justify-center lg:pt-40">
+                <div class="hidden text-center lg:block lg:flex lg:justify-center lg:pt-22">
                     <svg class="animate-bounce w-10 h-10 opacity-80	" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="white">
                         <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                     </svg>
