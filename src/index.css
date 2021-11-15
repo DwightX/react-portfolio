@@ -158,7 +158,12 @@ code {
 .textBlurbs{
   font-size: 1em;
   color: #fdfffc;
-  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  background-color: #112240;
+  box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+  padding: 2rem 1.75rem;
+  width: 100%;
 }
 .backGround{
   position: absolute;
@@ -222,6 +227,7 @@ li {
 .jobTitle{
   color: #e91e63;
   font-size: clamp(20px, 5vw, 90px);
+  font-weight: bold;
 }
 .jobCompany{
   font-family: monospace;
@@ -240,4 +246,11 @@ li {
 .laguageText{
   line-height: 1;
   font-family: monospace;
+}
+path:hover {
+  color: #e91e63;
+  -moz-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
 }
