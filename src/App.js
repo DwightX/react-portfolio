@@ -7,6 +7,8 @@ import AllPosts from "./components/AllPosts.js";
 import OnePost from "./components/OnePost.js";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   const matches = useMediaQuery('(max-width:768px)');
@@ -20,6 +22,8 @@ function App() {
       { matches && <Navbar />}
       <Maincontent />
       <Experience />
+      <Projects />
+      <Footer />
       </Route>
     </div>
     </BrowserRouter>

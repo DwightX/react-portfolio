@@ -138,9 +138,17 @@ code {
 }
 .section-Experience{
   min-height: 90vh;
-  display: flex;
+  display: block;
   align-items: center;
-  position: absolute;
+}
+.section-Projects{
+  min-height: 90vh;
+  display: block;
+  align-items: center;
+}
+.section-Footer{
+  display: block;
+  align-items: center;
 }
 .pageTitles{
   font-size: 2em;
@@ -162,6 +170,11 @@ code {
 }
 
 /* @@@@@@@@@@@ New CSS*/
+
+li {
+  display: inline;
+}
+
 .specialName h1{
   color: #e91e63;
   font-weight: 400;
@@ -211,5 +224,20 @@ code {
   font-size: clamp(20px, 5vw, 90px);
 }
 .jobCompany{
+  font-family: monospace;
+}
+.footerText{
+  font-family: monospace;
+  color: #718096;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+.media__stack-icon {
+  height: 1.25rem;
+  margin-right: 0.25rem;;
+  fill: #e91e63;
+}
+.laguageText{
+  line-height: 1;
   font-family: monospace;
 }
