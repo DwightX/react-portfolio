@@ -9,7 +9,7 @@ import Animate from '@charlesvien/react-animatecss';
 const Maincontent = (props) => {
   return (
     <div className="container mx-auto">
-      <div className="section-Main">
+      <div className="section-Main lg:max-w-screen-lg lg:mx-auto">
         <div className=" flex flex-col px-4">
           <div className="specialName">
             <h1>Hi, my name is</h1>
@@ -27,7 +27,7 @@ const Maincontent = (props) => {
               perform well with a seamless user experience.
             </p>
           </div>
-          <Animate animationIn="fadeIn mt-16" inDuration={1000} visible>
+          <Animate animationIn="fadeIn mt-16" inDuration={3000} visible>
             <div className="flex flex-wrap justify-evenly">
               <Link
                 className="linksMain"

@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = (props) => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto pt-24">
       {/* <div className="backGround"></div> */}
       <div className="section-Projects items-center px-4">
         <div className="flex flex-wrap">
