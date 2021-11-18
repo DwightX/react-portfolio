@@ -8,11 +8,11 @@ import Animate from '@charlesvien/react-animatecss';
 
 const Maincontent = (props) => {
   return (
-    <div className="container mx-auto">
-      <div className="section-Main lg:max-w-screen-lg lg:mx-auto">
+    <div className="container mx-auto max-w-screen-xl">
+      <div className="section-Main">
         <div className=" flex flex-col px-4">
           <div className="specialName">
-            <h1>Hi, my name is</h1>
+            <h1>Hello, friend ?</h1>
           </div>
           <div className="mainName">
             <h1 className="">DWIGHT CARTER</h1>

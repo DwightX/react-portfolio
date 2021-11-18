@@ -163,7 +163,6 @@ code {
   background-color: #112240;
   box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
   padding: 2rem 1.75rem;
-  width: 100%;
 }
 .backGround{
   position: absolute;
@@ -207,8 +206,9 @@ li {
   margin-top: 10px;
 }
 .specialBlurb p {
-  color: #fdfffc;
-  margin-top: 10px;
+  color: #e91e63;
+  margin-top: 5px;
+  font-weight: 600;
   font-family: monospace;
   font-style: italic;
 }
@@ -225,11 +225,25 @@ li {
   color: #fdfffc;
 }
 .jobTitle{
-  color: #e91e63;
-  font-size: clamp(20px, 5vw, 90px);
+  font-size: clamp(25px, 3vw, 90px);
   font-weight: bold;
+  color: #fdfffc;
 }
 .jobCompany{
+  font-weight: bold;
+  font-size: clamp(20px, 2vw, 30px);
+  color: #fdfffc;
+}
+.jobBlurb{
+  font-size: clamp(15px, 1vw, 30px);
+    color: #fdfffc;
+    line-height: 1.75rem;
+    font-weight: 500;
+}
+.jobYear{
+  font-size: clamp(15px, 0.5vw, 30px);
+  color: #e91e63;
+  font-weight: 500;
   font-family: monospace;
 }
 .footerText{
@@ -253,4 +267,15 @@ path:hover {
   -o-transition: all .1s ease-in;
   -webkit-transition: all .1s ease-in;
   transition: all .1s ease-in;
+}
+li{
+  display: list-item;
+}
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #e91e63; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
