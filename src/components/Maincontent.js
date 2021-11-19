@@ -10,7 +10,7 @@ const Maincontent = (props) => {
   return (
     <div className="container mx-auto max-w-screen-xl">
       <div className="section-Main">
-        <div className=" flex flex-col px-4">
+        <div className=" flex flex-col px-16 pt-28">
           <div className="specialName">
             <h1>Hello, friend ?</h1>
           </div>

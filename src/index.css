@@ -9,17 +9,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #001b29;
+  background-color: #001029;
   margin: 0px;
 }
 .bgColor{
-  color: #001b29;
+  color: #001029;
 }
 .thirdColor{
   color:#f8c0d2 !important;
 }
 .thirdColorBG{
-  background-color:#e91e63 !important;
+  background-color:#E3B23C !important;
 }
 
 h1 {
@@ -54,7 +54,7 @@ code {
   display: block;
 }
 .headSpecial {
-  color: #001b29;
+  color: #001029;
   font-weight: 900;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -68,9 +68,12 @@ code {
 }
 .linksHead{
   text-decoration: none !important;
-  font-weight: bold;
-  color: #fdfffc !important;
+  color: #EBF5FF !important ;
   padding: 10px 5px; 
+  font-family: monospace;
+}
+.linksHead:hover{
+  color: #E3B23C !important;
 }
 .linksMain:hover {
   color: #001b29 !important;
@@ -152,15 +155,15 @@ code {
 }
 .pageTitles{
   font-size: 2em;
-  color: #fdfffc;
+  color: #EBF5FF;
   font-weight: bold;
 }
 .textBlurbs{
   font-size: 1em;
-  color: #fdfffc;
+  color: #EBF5FF;
   border-radius: 4px;
   transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-  background-color: #112240;
+  background-color: #14284c;
   box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
   padding: 2rem 1.75rem;
 }
@@ -180,33 +183,35 @@ li {
 }
 
 .specialName h1{
-  color: #e91e63;
+  color: #E3B23C;
   font-weight: 400;
   margin-top: 10px;
+  font-family: monospace;
+  font-size: 15px;
 }
 .specialTitle h1{
-  color: #001b29;
+  color: #001029;
   font-weight: 900;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
-  -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #e91e63;
+  -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #E3B23C;
       font-size: clamp(35px, 8vw, 55px);
 }
 .mainName h1{
-  color: #fdfffc;
+  color: #EBF5FF;
   font-size: clamp(40px, 8vw, 80px);
   font-weight: 900;
   margin-top: 10px;
 }
 .mainBlurb p {
-  color: #fdfffc;
+  color: #EBF5FF;
   margin-top: 10px;
 }
 .specialBlurb p {
-  color: #e91e63;
+  color: #E3B23C;
   margin-top: 5px;
   font-weight: 600;
   font-family: monospace;
@@ -216,34 +221,38 @@ li {
   text-decoration: none !important;
   font-weight: bold;
   color: #fdfffc !important;
-  border: 1px solid #e91e63;
+  border: 1px solid #E3B23C;
   padding: 5px;
 }
 .sectionTitles h1{
   font-size: clamp(50px, 8vw, 90px);
   font-weight: 900;
-  color: #fdfffc;
+  color: #EBF5FF;
 }
 .jobTitle{
-  font-size: clamp(25px, 3vw, 90px);
+  font-size: clamp(25px, 2vw, 90px);
   font-weight: bold;
-  color: #fdfffc;
+  color: #EBF5FF;
 }
 .jobCompany{
   font-weight: bold;
   font-size: clamp(20px, 2vw, 30px);
-  color: #fdfffc;
+  color: #EBF5FF;
 }
 .jobBlurb{
   font-size: clamp(15px, 1vw, 30px);
-    color: #fdfffc;
+    color: #718096;
     line-height: 1.75rem;
     font-weight: 500;
 }
 .jobYear{
   font-size: clamp(15px, 0.5vw, 30px);
-  color: #e91e63;
-  font-weight: 500;
+  background: #E3B23C;
+  color: #112240;
+  width: 300px;
+  display: block;
+  padding: 1px;
+  font-weight: bold;
   font-family: monospace;
 }
 .footerText{
@@ -255,14 +264,14 @@ li {
 .media__stack-icon {
   height: 1.25rem;
   margin-right: 0.25rem;;
-  fill: #e91e63;
+  fill: #E3B23C;
 }
 .laguageText{
   line-height: 1;
   font-family: monospace;
 }
 path:hover {
-  color: #e91e63;
+  color: #E3B23C;
   -moz-transition: all .1s ease-in;
   -o-transition: all .1s ease-in;
   -webkit-transition: all .1s ease-in;
@@ -273,7 +282,7 @@ li{
 }
 ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #e91e63; /* Change the color */
+  color: #E3B23C; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
