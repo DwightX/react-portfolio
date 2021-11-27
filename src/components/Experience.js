@@ -11,7 +11,7 @@ const Experience = props => {
         <div className="blockColor"> 
         <div className="container mx-auto max-w-screen-xl">
             {/* <div className="backGround"></div> */}
-            <div className="section-Experience items-center px-16">
+            <div className="section-Experience items-center">
                 <div className='flex flex-wrap'>
                     <div className='flex flex-wrap items-center pb-8 w-full'>
                         <div className="sectionTitles w-2/4">
@@ -42,7 +42,7 @@ const Experience = props => {
                             <p>An orlando-based company providing user-friendly, engaging educational and training solutions for the public.</p>
                             <h3> <a className="jobCompany" href="https://www.h2itsolutions.com/">H2 IT SOLUTIONS</a></h3>
                         </div> */}
-                        <div className='py-4 textBlurbs md:flex md:flex-wrap w-full'>
+                        <div className='py-4 px-4 textBlurbs md:flex md:flex-wrap w-full'>
                             <div className="w-full md:w-2/4">
                                 <h2 className='jobTitle'>FRONT END WEB DEVELOPER</h2>
                                 <p className="jobYear">June 2019 - Present</p>
@@ -58,7 +58,7 @@ const Experience = props => {
                             </div>
                              </div>
                         </div>
-                        <div className='py-4 textBlurbs md:flex md:flex-wrap w-full'>
+                        <div className='py-4 px-4 textBlurbs md:flex md:flex-wrap w-full'>
                         <div className="w-full md:w-2/4">
                                 <h2 className='jobTitle'>JR FRONT END WEB DEVELOPER</h2>
                                 <p className="jobYear">October 2018 - June 2019</p>
@@ -74,7 +74,7 @@ const Experience = props => {
                             </div>
                              </div>
                         </div>                     
-                        <div className='py-4 textBlurbs md:flex md:flex-wrap w-full'>
+                        <div className='py-4 px-4 textBlurbs md:flex md:flex-wrap w-full'>
                         <div className="w-full md:w-2/4">
                                 <h2 className='jobTitle'>JR CONTENT DEVELOPER</h2>
                                 <p className="jobYear">July - October 2018</p>

@@ -165,7 +165,7 @@ code {
   transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
   background-color: #14284c;
   box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
-  padding: 2rem 1.75rem;
+  /* padding: 2rem 1.75rem; */
 }
 .backGround{
   position: absolute;

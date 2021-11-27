@@ -15,7 +15,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className="App">
+    <div className="App px-4">
         <Route component={AllPosts} path="/blog" exact />
         <Route component={OnePost} path="/:slug" exact/>
         <Route path="/" exact> 

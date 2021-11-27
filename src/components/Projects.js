@@ -4,7 +4,7 @@ const Projects = (props) => {
   return (
     <div className="container mx-auto pt-24 max-w-screen-xl">
       {/* <div className="backGround"></div> */}
-      <div className="section-Projects items-center px-16">
+      <div className="section-Projects items-center">
         <div className="flex flex-wrap">
           <div className="">
             <div className="sectionTitles">
@@ -12,7 +12,7 @@ const Projects = (props) => {
             </div>
           </div>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="py-4 textBlurbs jobBlob">
+            <div className="py-4 px-4 textBlurbs jobBlob">
               <div className="flex items-center justify-between">
                 <h2 className="jobTitle hover-underline-animation">Github Profile Finder</h2>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -31,7 +31,7 @@ const Projects = (props) => {
                 </div>
               </div>
             </div>
-            <div className="py-4 textBlurbs jobBlob">
+            <div className="py-4 px-4 textBlurbs jobBlob">
             <div className="flex items-center justify-between">
               <h2 className="jobTitle hover-underline-animation">Note Tracker</h2>
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -53,7 +53,7 @@ const Projects = (props) => {
                 </div>
               </div>
             </div>
-            <div className="py-4 textBlurbs jobBlob">
+            <div className="py-4 px-4 textBlurbs jobBlob">
             <div className="flex items-center justify-between">
               <h2 className="jobTitle hover-underline-animation">Mask Market USA</h2>
               <div className="flex items-center justify-between">
@@ -78,7 +78,7 @@ const Projects = (props) => {
                 </div>
               </div>
             </div>
-            <div className="py-4 textBlurbs jobBlob">
+            <div className="py-4 px-4 textBlurbs jobBlob">
             <div className="flex items-center justify-between">
               <h2 className="jobTitle hover-underline-animation">Mock JSON API</h2>
               <div className="flex items-center justify-between">
