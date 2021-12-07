@@ -1,9 +1,5 @@
 import React from 'react'
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
 import avi from '../images/memoji.png'
-import { Container } from '@mui/material';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Experience = props => {

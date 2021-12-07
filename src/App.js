@@ -9,7 +9,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 
 function App() {
