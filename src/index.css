@@ -160,10 +160,9 @@ code {
 }
 .textBlurbs{
   font-size: 1em;
-  color: #EBF5FF;
+  color: #718096;
   border-radius: 4px;
   transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-  background-color: #14284c;
   box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
   /* padding: 2rem 1.75rem; */
 }
@@ -240,7 +239,7 @@ li {
   color: #EBF5FF;
 }
 .jobBlurb{
-  font-size: clamp(15px, 1vw, 30px);
+  /* font-size: clamp(15px, 1vw, 30px); */
     color: #718096;
     line-height: 1.75rem;
     font-weight: 500;
@@ -287,4 +286,86 @@ ul li::before {
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #E3B23C;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+svg.m-4 {
+  fill: white;
+}
+svg.m-4:hover {
+  fill: #E3B23C;
+  transition: all 0.3s ease;
+}
+.home__CTA {
+  width: max-content;
+}
+.home__text a.cta {
+  display: block;
+  margin: 20px 0px;
+  font-family: monospace;
+  font-size: 15px;
+}
+.home__social {
+  color: rgb(109, 131, 242);
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.svg-inline--fa, svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+.dxFdrJ {
+  border: 2px solid #E3B23C;
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  margin: 0px;
+  padding: 12px;
+  border-radius: 5px;
+}
+.dxFdrJ:hover {
+background-color: rgba(255, 232, 100, 0.082);
+transition: all 0.3s ease;
+}
+.home__text a.cta {
+  display: block;
+  margin: 30px 0px;
+  color: #E3B23C;
 }

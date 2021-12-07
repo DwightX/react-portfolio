@@ -3,14 +3,16 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import avi from '../images/memoji.png'
 import { Container } from '@mui/material';
-
-
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Experience = props => {
+    const alignCenter = { display: 'flex', alignItems: 'center' }
+
     return (
+        <AnimationOnScroll animateIn="animate__slower animate__fadeIn">
         <div className="blockColor"> 
         <div className="container mx-auto max-w-screen-xl">
-            {/* <div className="backGround"></div> */}
             <div className="section-Experience items-center">
                 <div className='flex flex-wrap'>
                     <div className='flex flex-wrap items-center pb-8 w-full'>
@@ -27,21 +29,6 @@ const Experience = props => {
                         </div>
                     </div>
                     <div className="flex flex-wrap gap-4">
-                        {/* <div className='py-4 textBlurbs w-2/4'>
-                            <h2 className='jobTitle'>FRONT END WEB DEVELOPER</h2>
-                            <p>For years, Zaniboni Lighting has been developing a line of products aimed at the us architectural market.</p>
-                            <h3><a className="jobCompany" href="https://zanibonilighting.com/">ZANIBONI LIGHTING</a></h3>
-                        </div> */}
-                        {/* <div className='py-4 textBlurbs w-2/4'>
-                            <h2 className='jobTitle'>JR FRONT END WEB DEVELOPER</h2>
-                            <p>Offers individualized treatment in an executive level women's only setting for mental and behavioral challenges.</p>
-                            <h3><a className="jobCompany" href="https://thewaveclearwater.com/">THE WAVE</a></h3>
-                        </div> */}
-                        {/* <div className='py-4 textBlurbs w-2/4' >
-                            <h2 className='jobTitle'>JR CONTENT DEVELOPER</h2>
-                            <p>An orlando-based company providing user-friendly, engaging educational and training solutions for the public.</p>
-                            <h3> <a className="jobCompany" href="https://www.h2itsolutions.com/">H2 IT SOLUTIONS</a></h3>
-                        </div> */}
                         <div className='py-4 px-4 textBlurbs md:flex md:flex-wrap w-full'>
                             <div className="w-full md:w-2/4">
                                 <h2 className='jobTitle'>FRONT END WEB DEVELOPER</h2>
@@ -90,11 +77,13 @@ const Experience = props => {
                             </div>
                              </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
         </div>
+        </AnimationOnScroll>
     )
 }
 

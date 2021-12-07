@@ -9,9 +9,13 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+
 
 function App() {
   const matches = useMediaQuery('(max-width:768px)');
+  const alignCenter = { display: 'flex', alignItems: 'center' }
+
 
   return (
     <BrowserRouter>
@@ -20,10 +24,15 @@ function App() {
         <Route component={OnePost} path="/:slug" exact/>
         <Route path="/" exact> 
       { matches && <Navbar />}
-      <Maincontent />
-      <Experience />
-      <Projects />
+           <Maincontent />
+
+           <Experience />
+
+        <Projects />
+
       <Footer />
+
+
       </Route>
     </div>
     </BrowserRouter>
