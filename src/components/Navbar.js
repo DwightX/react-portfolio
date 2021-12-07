@@ -3,12 +3,10 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
-import useMediaQuery from '@mui/material/useMediaQuery';
 import Link from '@mui/material/Link';
 import { Typography } from '@mui/material';
 
 export default function MenuAppBar() {
-const matches = useMediaQuery('(min-width:768px)');
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const handleClose = () => {
