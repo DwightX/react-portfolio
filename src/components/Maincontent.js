@@ -1,7 +1,10 @@
 import Animate from "@charlesvien/react-animatecss";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 const Maincontent = (props) => {
   return (
+    <AnimationOnScroll animateIn="animate__slower animate__fadeInUp">
     <div className="container mx-auto max-w-screen-2xl">
       <div className="section-Main">
         <div className=" flex flex-col lg:p-40">
@@ -88,6 +91,7 @@ const Maincontent = (props) => {
         </div>
       </div>
     </div>
+    </AnimationOnScroll>
   );
 };
 
