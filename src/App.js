@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 function App() {
   const matches = useMediaQuery('(max-width:768px)');
   return (
-    <HashRouter>
+    <BrowserRouter>
     <div className="App px-4">
         <Route component={AllPosts} path="/blog" exact />
         <Route component={OnePost} path="/:slug" exact/>
@@ -31,7 +31,7 @@ function App() {
 
       </Route>
     </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
