@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.13aca8af.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c2d7e286.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c2d7e286.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.1dd45ea7.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.1dd45ea7.js.map",
-    "static/js/2.4e2385c0.chunk.js": "/react-portfolio/static/js/2.4e2385c0.chunk.js",
-    "static/js/2.4e2385c0.chunk.js.map": "/react-portfolio/static/js/2.4e2385c0.chunk.js.map",
-    "static/js/3.0b2bd164.chunk.js": "/react-portfolio/static/js/3.0b2bd164.chunk.js",
-    "static/js/3.0b2bd164.chunk.js.map": "/react-portfolio/static/js/3.0b2bd164.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/main.13aca8af.chunk.css.map": "/react-portfolio/static/css/main.13aca8af.chunk.css.map",
-    "static/js/2.4e2385c0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4e2385c0.chunk.js.LICENSE.txt",
-    "static/media/memoji.c8cd2494.png": "/react-portfolio/static/media/memoji.c8cd2494.png"
+    "main.css": "./static/css/main.13aca8af.chunk.css",
+    "main.js": "./static/js/main.c2d7e286.chunk.js",
+    "main.js.map": "./static/js/main.c2d7e286.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.6112333f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.6112333f.js.map",
+    "static/js/2.4e2385c0.chunk.js": "./static/js/2.4e2385c0.chunk.js",
+    "static/js/2.4e2385c0.chunk.js.map": "./static/js/2.4e2385c0.chunk.js.map",
+    "static/js/3.0b2bd164.chunk.js": "./static/js/3.0b2bd164.chunk.js",
+    "static/js/3.0b2bd164.chunk.js.map": "./static/js/3.0b2bd164.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.13aca8af.chunk.css.map": "./static/css/main.13aca8af.chunk.css.map",
+    "static/js/2.4e2385c0.chunk.js.LICENSE.txt": "./static/js/2.4e2385c0.chunk.js.LICENSE.txt",
+    "static/media/memoji.c8cd2494.png": "./static/media/memoji.c8cd2494.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1dd45ea7.js",
+    "static/js/runtime-main.6112333f.js",
     "static/js/2.4e2385c0.chunk.js",
     "static/css/main.13aca8af.chunk.css",
     "static/js/main.c2d7e286.chunk.js"
