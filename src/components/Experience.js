@@ -7,7 +7,7 @@ const Experience = props => {
     return (
         <AnimationOnScroll animateIn="animate__slower animate__fadeIn">
         <div className="blockColor"> 
-        <div className="container mx-auto max-w-screen-xl">
+        <div className="container mx-auto max-w-screen-2xl">
             <div className="section-Experience items-center">
                 <div className='flex flex-wrap'>
                     <div className='flex flex-wrap items-center pb-8 w-full'>

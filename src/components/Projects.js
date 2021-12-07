@@ -9,7 +9,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Projects = (props) => {
   return (
     <AnimationOnScroll animateIn="animate__slower animate__fadeIn">
-    <div className="container mx-auto pt-24 max-w-screen-xl">
+    <div className="container mx-auto pt-24 max-w-screen-2xl">
       {/* <div className="backGround"></div> */}
       <div className="section-Projects items-center">
         <div className="flex flex-wrap">
