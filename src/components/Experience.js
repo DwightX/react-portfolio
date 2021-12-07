@@ -3,7 +3,6 @@ import avi from '../images/memoji.png'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Experience = props => {
-    const alignCenter = { display: 'flex', alignItems: 'center' }
 
     return (
         <AnimationOnScroll animateIn="animate__slower animate__fadeIn">

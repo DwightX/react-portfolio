@@ -13,9 +13,6 @@ import Footer from './components/Footer';
 
 function App() {
   const matches = useMediaQuery('(max-width:768px)');
-  const alignCenter = { display: 'flex', alignItems: 'center' }
-
-
   return (
     <BrowserRouter>
     <div className="App px-4">
