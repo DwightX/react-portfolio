@@ -2,7 +2,7 @@
   "root": true,
   "project": {
     "name": "portfolio-blog",
-    "basePath": "www.dwightcarterjr.com/blog"
+    "basePath": "/blog"
   },
   "api": {
     "projectId": "bo2b9nuc",
