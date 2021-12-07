@@ -1,8 +1,6 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
 import useMediaQuery from '@mui/material/useMediaQuery';
@@ -13,11 +11,6 @@ export default function MenuAppBar() {
 const matches = useMediaQuery('(min-width:768px)');
 
   const [anchorEl, setAnchorEl] = React.useState(null);
-
-  const handleMenu = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -28,22 +21,12 @@ const matches = useMediaQuery('(min-width:768px)');
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             DC.
           </Typography>
-                { matches && <div>
-                  <Link className="linksHead" sx={{m:2}} href="#">ABOUT</Link>
-                  <Link className="linksHead" sx={{m:2}} href="#">PROJECTS</Link>
-                  <Link className="linksHead" sx={{m:2}} href="#">CONTACT</Link>
+                <div>
+                  <Link className="linksHead" sx={{m:2}} href="#about__block">ABOUT</Link>
+                  <Link className="linksHead" sx={{m:2}} href="#exp__block">EXPERIENCE</Link>
+                  <Link className="linksHead" sx={{m:2}} href="#project__block">PROJECTS</Link>
                 </div>
-              }
             <div>
-               {!matches && <IconButton
-                className="hamBurger"
-                size="large"
-                edge="start"
-                aria-label="menu"
-                onClick={handleMenu}
-            > 
-            <MenuIcon />
-             </IconButton> }
               <Menu
                 id="menu-appbar"
                 anchorEl={anchorEl}

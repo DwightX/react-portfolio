@@ -71,6 +71,7 @@ code {
   color: #EBF5FF !important ;
   padding: 10px 5px; 
   font-family: monospace;
+  font-size: 13px;
 }
 .linksHead:hover{
   color: #E3B23C !important;
@@ -256,9 +257,10 @@ li {
 }
 .footerText{
   font-family: monospace;
-  color: #718096;
+  color: #E3B23C;
   text-align: center;
   padding: 10px 10px 10px 10px;
+  font-size: 8px;
 }
 .media__stack-icon {
   height: 1.25rem;
@@ -369,4 +371,11 @@ transition: all 0.3s ease;
   display: block;
   margin: 30px 0px;
   color: #E3B23C;
+}
+.MuiLink-root{
+  margin: 3px !important;
+}
+.MuiToolbar-regular{
+  padding-left: 0px !important;
+  padding-right:  0px !important;
 }
