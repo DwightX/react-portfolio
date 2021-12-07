@@ -1,7 +1,8 @@
 {
   "root": true,
   "project": {
-    "name": "portfolio-blog"
+    "name": "portfolio-blog",
+    "basePath": "/blog"
   },
   "api": {
     "projectId": "bo2b9nuc",
