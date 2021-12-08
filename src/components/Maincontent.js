@@ -7,7 +7,7 @@ const Maincontent = (props) => {
     <AnimationOnScroll animateIn="animate__slower animate__fadeInUp">
     <div id="about__block" className="container mx-auto max-w-screen-2xl">
       <div className="section-Main">
-        <div className=" flex flex-col lg:p-40">
+        <div className=" flex flex-col md:p-24 lg:p-40">
           <div className="specialName">
             <h1>Hello, friend ?</h1>
           </div>
