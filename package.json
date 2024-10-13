@@ -5,7 +5,6 @@
   "private": true,
   "dependencies": {
     "@charlesvien/react-animatecss": "^1.0.10",
-    "@craco/craco": "^6.4.0",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
     "@fontsource/roboto": "^4.5.1",
@@ -53,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
     "autoprefixer": "^9.8.8",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
